@@ -1,0 +1,217 @@
+html {
+  font-family: Verdana;
+  color: #333333;
+  font-size: 12px;
+}
+body {
+  margin:0 50px;
+  background: url(./bg.png) #85B2CA fixed;
+}
+#container {
+  background-color: #FFFFFF;
+  border: 6px solid #3A4A54;
+  margin-top: 10px;
+  padding: 30px;
+
+  /* CSS3 */
+  -moz-box-shadow: 0px 0px 15px #333;
+  -webkit-box-shadow: 0px 0px 15px #333;
+  box-shadow: 0px 0px 15px #333;
+
+  -moz-border-radius: 15px;
+  border-radius: 10px;
+}
+#sort {
+  padding: 10px 0 0 0;
+  float: right;
+  clear: right;
+}
+#sort select,
+#sort input{
+  border: 1px solid #BBB;
+}
+#sort select:focus,
+#sort input:focus{
+  border: 1px solid #000; 
+}
+
+h1 {
+  float: left;
+  clear: both;
+}
+#menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+#menu div {
+  margin-left: 10px;
+}
+#home {
+  width: 24px;
+  height: 24px;
+  background: url(./btns/h_n.png);
+  position: relative;
+  float: left;
+}
+#home:hover {
+  background: url(./btns/h_h.png);
+}
+#add {
+  width: 24px;
+  height: 24px;
+  background: url(./btns/a_n.png);
+  position: relative;
+  float: right;
+}
+#add:hover {
+  background: url(./btns/a_h.png);
+}
+#success {
+  text-align: center;
+  background-color: #EFE;
+  border: 1px solid #8F8;
+}
+#fail {
+  text-align: center;
+  background-color: #FEE;
+  border: 1px solid #F88;
+}
+.picture a img {
+  transition:box-shadow 0.3s;
+  -moz-transition:opacity 0.3s; 
+  -webkit-transition:opacity 0.3s;
+  -o-transition:opacity 0.3s;
+
+  -moz-box-shadow: 5px 5px 3px #AAA;
+  -webkit-box-shadow: 5px 5px 3px #AAA;
+  box-shadow: 5px 5px 3px #AAA;
+}
+.picture a img:hover {
+  opacity: 0.8;
+}
+.movie {
+  background-color: #eee;
+  padding: 20px;
+  margin: 10px 0;
+  clear: both;
+
+  /* CSS3 */
+  -moz-box-shadow: 0px 0px 5px #bbb;
+  -webkit-box-shadow: 0px 0px 5px #bbb;
+  box-shadow: 0px 0px 5px #bbb;
+
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.year {
+  text-align: center;
+  font-size: 10px;
+  padding: 3px 0;
+}
+.my_rating {
+  background-color: #fff;
+  border: 1px solid #555;
+  width: 158px;
+  height: 14px;
+}
+.my_rating div {
+  max-width: 158px;
+  min-width: 0px;
+}
+.youtube {
+  text-align: center;
+}
+.youtube a {
+  text-decoration: none;
+  color: #000;
+}
+.left {
+  float: left;
+}
+.right {
+  padding: 0 0 0 20px;
+  overflow: hidden;
+  text-align: justify;
+}
+.clear {
+  clear: left;
+}
+h2 {
+  margin: 0;
+  padding: 0 0 20px 0;
+}
+.genres ul {
+  margin: 0;
+  padding: 0;
+}
+.genres ul li {
+  list-style: none;
+  float: left;
+  padding: 3px;
+  margin-right: 12px;
+  background: #BBB;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+.genres ul li a {
+  background: #999;
+  color: #FFF;
+  padding: 0 5px;
+  font-weight: bold;
+
+  transition:background 0.3s;
+  -moz-transition:background 0.3s; 
+  -webkit-transition:background 0.3s;
+  -o-transition:background 0.3s;
+}
+.genres ul li a:hover {
+  background: #777;
+  cursor: pointer;
+}
+
+/* CSS - hinzufuegen */
+
+.forms {
+
+}
+#movie_name,
+#movie_description,
+#file,
+#yearpicker,
+#movie_youtube,
+#rating{
+  width: 100%;
+  max-width: 300px;
+}
+
+.add_genre {
+  margin: 0;
+  padding: 0;
+}
+.add_genre li {
+  width: 126px;
+  float: left;
+  list-style: none;
+}
+.add_senden {
+  clear: both; 
+}
+
+table input,
+table textarea,
+table select {
+  border: 1px solid #BBB;
+
+}
+table input:hover,
+table textarea:hover,
+table select:hover {
+  border: 1px solid #888;
+}
+table input:focus,
+table textarea:focus,
+table select:focus{
+  border: 1px solid #000;
+}
